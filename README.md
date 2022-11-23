@@ -11,3 +11,25 @@ For sentiment analysis, we used both supervised and unsupervised techniques wher
 
 Problem Statement
 Your task is to cluster the Zomato restaurants into different segments. Also, the data has valuable information around cuisine and costs which can be used in cost vs. benefit analysis Perform sentiment analysis. Also, use the metadata of reviewers to identify the critics in the industry.
+ABOUT THE DATA.
+
+There are two data files
+
+"Zomato restaurant reviews"
+Restaurant: Name of the Restaurant
+Reviewer: Name of the Reviewer
+Review: Review Text
+Rating: Rating Provided by Reviewer
+MetaData: Reviewer Metadata - No. of Reviews and followers
+Time: Date and Time of Review
+Pictures: No. of pictures posted with the review
+This data has been mainly used for Sentiment analysis.
+
+"Zomato Restaurant names and Metadata"
+Name: Name of Restaurants
+Links: URL Links of Restaurants
+Cost: Per person estimated Cost of dining
+Collection: Tagging of Restaurants w.r.t. Zomato categories
+Cuisines: Cuisines served by Restaurants
+Timings: Restaurant Timings
+This data has been mainly used for clustering.
